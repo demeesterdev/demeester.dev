@@ -3,6 +3,9 @@
   "date": "2020-01-05T12:22:48+01:00",
   "tags": [
     "hugo"
+  ],
+  "projects" : [
+    "demeester.dev"
   ]
 } 
 
