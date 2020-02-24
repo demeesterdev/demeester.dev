@@ -1,0 +1,30 @@
+{
+   "title": "DeMeester.dev",
+   "theme": "demeester.dev",
+   "enableGitInfo": true,
+   "SectionPagesMenu" :  "main",
+   "params": {
+      "author": "Thijs De Meester",
+      "github": "demeesterdev",
+      "twitter": "demeesterdev",
+      "linkedin": "thijsdemeester",
+      "keybase" : "tdemeester",
+      "githubSourceURL": "https://github.com/demeesterdev/demeester.dev"
+   },
+   "blackfriday": {
+      "hrefTargetBlank":true
+   },
+   "related":{
+     "includeNewer" : true,
+      "indices": [
+        {
+           "name" : "project",
+           "weight" : 1
+        }
+      ]
+   },
+   "enableEmoji" : true,
+   "pygmentsOptions": "linenos=true",
+   "pygmentsCodeFences": true,
+   "pygmentsStyle": "dracula"
+}

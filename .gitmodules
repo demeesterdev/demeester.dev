@@ -1,0 +1,3 @@
+[submodule "themes/demeester.dev"]
+	path = themes/demeester.dev
+	url = https://github.com/demeesterdev/demeester.dev.hugo.git

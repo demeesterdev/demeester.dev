@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/tdemeester
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://demeester.dev
+  * I am tdemeester (https://keybase.io/tdemeester) on keybase.
+  * I have a public key with fingerprint A50D 9B3F 5120 E94E E0F4  237E C2F0 3114 7407 04D0
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010164da0f48837547f2de34cae6c918591f755dc16c0efa150821ddfdcbc25dc0ae0a",
+      "fingerprint": "a50d9b3f5120e94ee0f4237ec2f03114740704d0",
+      "host": "keybase.io",
+      "key_id": "c2f03114740704d0",
+      "kid": "010164da0f48837547f2de34cae6c918591f755dc16c0efa150821ddfdcbc25dc0ae0a",
+      "uid": "bfcebe4ef73861aebf62eab6f6b39719",
+      "username": "tdemeester"
+    },
+    "service": {
+      "hostname": "demeester.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1553764538,
+  "expire_in": 157680000,
+  "prev": "7fb4c5f89c74a2d264f1f73c5c7b90c9ef620b5f88d3e95871d7f7a16dc10741",
+  "seqno": 28,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMIoAnicrZJbSBRRGMd3LbMWzLSHtB7KI5qR2DlzOzNLhYl0oehGpJGwzMw5Zx1W
+d9bZUctFKMJCypDoJhVdjArfygq6SGZCRhdIBKksiiIqiAql1OhyRqynHjsvw/nm
+9/9/3/fn9KRO8gX8Jcc27ZgS+HDXf//2sRpf+fGW6wlg2GQ7CCZAhI5/aCWhcTcU
+sQgIAoggUiSiQyapqohlCTOBUFEydaqYGlJlDTEsy8REigkp05EMVQERwohpmAKv
+Q51CHRQAZkXD1Ik5VtTltroMiWaITEYCpJpEKfcXRExNgUERIQlLEEOJQC6ssOOe
+gg9n6HFaaNm8xi+h8fH+wf/nuWvG7QxmUoNKlGFRVZBODaYIVDcUphiihpHmgXHq
+RPUqymmX0CrKM6QOaCgAvF5rmdSL1ttlgvmLFBJay+Uxx3Zt067kvypcNxYPelJ3
+e8xj66gRmnAJGVaU8Ci5opY6ccuOgiDipOlani2SZRErkiyqBYBui1kODVkeIWNF
+hfx4fXi7IMDMkEyZqZqJJV0ggiIxHohoyiY2NGhqlC8IDQ6oRKSarGJEMMM6Unhi
+EEsIeHtVR20QFHgrVw9zz7gVjupujUNBQ3dX+WSfP+CbkpzkvTFfYNqMPy8v7qT8
+BKv8JWeKTw109l59NvXruc2Te380Hf7cOHTlclXr2KeV54rsD0/ds8m3LnZUWBtb
+S27s65S7ZnV9X3jCFxHu+HPfvdTrr5QuH27ML/sUzsl9/uXR+SeB6ocjGy4dqU+X
+E+DjkcWJCxcu5/cUv1ki7MxcVpdU+Y31NZLVZfiQ2N2gjL4YHHra3Fu7PuOecjK7
+flYoO6/7cV1sxYMFu2vaOmdHsuZX9/5y96dYg4de5ZBwQ8vM98U3S+euObh1tGM4
+q38kMpbIg0XrmhfFmqednn5t4EB+W2a6UNY/smvO3LS+rONP2tPWxupUbem7ee3t
+65KaqvuPbsmrbH1tzzmTuvftgz0ZvwHPz0Mw
+=wIRF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tdemeester
+
+==================================================================
