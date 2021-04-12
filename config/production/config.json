@@ -1,4 +1,5 @@
 {
     "baseURL": "https://demeester.dev/",
-    "enableRobotsTXT" : true
+    "enableRobotsTXT" : true,
+    "publishDir": "release"
 }

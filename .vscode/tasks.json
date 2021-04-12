@@ -1,0 +1,51 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "init",
+        "type": "shell",
+        "command": "git",
+        "windows": {
+          "command": "git.exe"
+        },
+        "args": ["serve"],
+
+
+      },
+      {
+        "label": "watch",
+        "type": "shell",
+        "command": "hugo",
+        "windows": {
+          "command": "hugo.exe"
+        },
+        "args": ["serve"],
+        "isBackground": true,
+        "group": "test",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "problemMatcher":{
+            "owner":"hugo",
+            "fileLocation":"absolute",
+            "applyTo": "allDocuments",
+            "pattern" :{
+                "regexp": "^(\\w*) (\\d{4}\\/\\d{2}\\/\\d{2} \\d{2}:\\d{2}:\\d{2}) (\".*\"): (.*)",
+                "severity":1,
+                "file": 3,
+                "line": 4,
+                "column": 5,
+                "message": 6
+            },
+            "background": {
+                "activeOnStart": true,
+                "beginsPattern": "^Change detected, rebuilding site\\.",
+                "endsPattern": "^(Web Server is available at)[\\s\\S]*"
+            }
+        }
+      }
+    ]
+  }
