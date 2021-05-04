@@ -9,13 +9,12 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v1  # v2 does not have submodules option now
-        with:
-          submodules: true
+      - uses: actions/checkout@v2  # v2 does not have submodules option now
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true
 
       - name: Build
         run: hugo --minify
@@ -24,7 +23,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY_DEMEESTERDEV_GITHUB_IO }}
-          publish_dir: ./public
+          publish_dir: ./release
           external_repository: demeesterdev/demeesterdev.github.io
           publish_branch: master
           user_name: github_actions
